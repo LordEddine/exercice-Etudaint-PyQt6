@@ -1,0 +1,41 @@
+QWidget {
+    background-color: #121212;
+    color: white;
+}
+
+QPushButton {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QPushButton:hover {
+    background-color: #2a2a2a;
+}
+
+QLineEdit, QComboBox, QSpinBox {
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+QTableWidget {
+    background-color: #1a1a1a;
+    gridline-color: #333;
+    selection-background-color: #2a2a2a;
+    selection-color: white;
+    alternate-background-color: #583838;
+}
+
+QHeaderView::section {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+QPushButton:checked {
+    background-color: #696969;  /* Bleu pour bouton actif */
+}
