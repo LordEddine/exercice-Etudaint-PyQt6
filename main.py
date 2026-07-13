@@ -42,7 +42,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.stack, 4)
 
         self.switch_page(0, self.btn_home)
-        self.setWindowTitle("Dashboard — Gestion Étudiants")
+        self.setWindowTitle("Dashboard — Gestion Étudiants Eddine")
         self.resize(900, 600)
 
     def switch_page(self, index, active_btn):
